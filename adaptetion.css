@@ -1,0 +1,379 @@
+@media only screen and (max-width: 1200px){
+    
+    .container {
+        width: 100%;
+        padding: 0 110px 0 190px;
+        margin: 0;
+    }
+    .menu {
+        width: 690px;
+    }
+    .header-top_nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-top_number {
+        width: 210px;
+        margin: 50px auto 0 auto;
+        text-align: center;
+    }
+    .header-contant_right {
+        display: none;
+    }
+    .header-contant_left {
+        margin-top: 0;
+        width: 100%;
+    }
+    .header-contant {
+        margin-top: 208px;
+    }
+    .header-contant_left p{
+        width: 100%;
+    }
+    .header-contant_left h2 {
+        margin-bottom: 17px;
+    }
+    .headline {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .about-title, .project-title, .partners-title, .contacts-title {
+        width: 290px;
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .about-row_text {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 100px;
+    }
+    .about-row_img {
+        display: none;
+    }
+    .project-title{
+        width: 530px;
+    }
+    .projects-slider {
+        margin: 100px 0 0 0;
+    }
+    .rating {
+        width: 100%;
+        margin-top: 140px;
+    }
+    .rating-row {
+        display: flex;
+        gap: 103px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 187px;
+        padding-left: 190px;
+    }
+    .partners-title{
+        width: 480px;
+    }
+    .partners-swiper {
+        margin-top: 130px;
+    }
+    .contacts-row {
+        flex-direction: column-reverse;
+        gap: 80px;
+    }
+    .contacts-title {
+        width: 520px;
+    }
+    .partners-row {
+        margin: 0 110px 0 190px;
+    }
+    .projects {
+        margin: 0 110px 0 190px;
+    }
+    .right-bottom {
+        justify-content: space-between;
+        gap: 110px;
+    }
+    .right-top_right textarea {
+        width: 300px;
+    }
+    .contacts-row_left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contacts-row_left a {
+        margin-left: 200px;
+    }
+    .footer {
+        margin-top: 55px;
+    }
+    .right-top {
+        justify-content: space-between;
+    }
+
+
+
+}
+@media only screen and (max-width: 992px){
+
+    .container {
+        padding: 0 39px;
+    }
+    .header {
+        height: 800px;
+    }
+    .header-left {
+        display: none;
+    }
+    #checkbox_toggle:checked ~ .menu{
+        display: block;
+        transition: all 0.5s;
+    }
+    .hamburger {
+        display: block;
+        padding: 20px 0;
+        position: absolute;
+        top: 50px;
+        z-index: 1;
+    }
+    #checkbox_toggle:checked ~ .hamburger .hamburger-line{
+        background-color: transparent;
+    }
+    
+    #checkbox_toggle:checked ~ .hamburger .hamburger-line::before{
+        transform: rotate(-45deg);
+        top: 0;
+        left: 200px;
+        width: 20px;
+    }
+    #checkbox_toggle:checked ~ .hamburger .hamburger-line::after{
+        transform: rotate(45deg);
+        top: 0;  
+        left: 200px;
+        width: 20px;
+    }
+    .menu {
+        display: none;
+        width: 300px;
+        height: 800px;
+        position: absolute;
+        background: #333333;
+        top: 0;
+        left: 0;
+        padding: 140px 0 0 39px;
+        font-size: 24px;
+        
+    }
+    .header-top_number {
+        width: 140px;
+        margin: 0;
+    }
+    .header-top_nav {
+        display: block;
+    }
+    .header-top_number {
+        position: absolute;
+        right: 39px;
+        top: 60px;
+    }
+    .line_link{
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.05em;
+    }
+    .menu li{
+        margin-bottom: 35px;
+    }
+    .soc-burger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        gap: 50px;
+        margin: 89px 80px 0 41px;
+    }
+    .soc-burger_top, .soc-burger_bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 140px;
+        gap: 50px;
+    }
+    .projects {
+        margin: 0 39px;
+    }
+    .projects-slider {
+        margin: 60px 0 0 0;
+    }
+    .rating {
+        margin-top: 80px;
+    }
+    .rating-row {
+        gap: 25px;
+        padding-top: 150px;
+        padding-left: 99px;
+    }
+    .rayting-stars p {
+        font-size: 29px;
+        width: 380px;
+    }
+    .rayting-stars {
+        padding-top: 60px;
+    }
+    .partners-title {
+        margin-top: 90px;
+    }
+    .partners-row {
+        margin: 0 39px;
+    }
+    .partners-swiper {
+        margin-top: 92px;
+    }
+    .contacts-row {
+        padding-top: 60px;
+    }
+    .footer {
+        margin-top: 35px;
+    }
+    .contacts-row {
+        gap: 60px;
+    }
+    .about-title, .project-title, .partners-title {
+        margin-top: 90px;
+    }
+    
+
+
+}
+@media only screen and (max-width: 768px){
+
+    .container {
+        padding: 0 33px;
+    }
+    .about-title, .partners-title {
+        margin-top: 80px;
+    }
+    .project-title{
+        margin-top: 116px;
+    }
+    .contacts-title{
+        margin-top: 140px;
+    }
+    .header-top_number {
+        right: 33px;
+    }
+    .header-contant_left h2 {
+        font-size: 36px;
+        width: 450px;
+        margin: 0 auto 15px auto;
+    }
+    .header {
+        height: 600px;
+    }
+    .headline {
+        margin-left: 0;
+    }
+    .header-contant {
+        margin-top: 104px;
+    }
+    .menu {
+        width: 280px;
+        height: 600px;
+        padding: 120px 0 0 33px;
+    }
+    .menu li {
+        margin-bottom: 25px;
+    }
+    .soc-burger {
+        margin: 47px 0 0 35px;
+    }    
+    .about-row_text{
+        margin-top: 60px;
+    }
+    .about-row_text {
+        flex-direction: column;
+    }
+    .best-theatre {
+        width: 100%;
+    }
+    .best-theatre h3, .some-numbers h3 {
+        text-align: center;
+    }
+    .right-top {
+        flex-wrap: wrap;
+    }
+    .rating-row {
+        padding-left: 33px;
+    }
+    .about-title {
+        padding-left: 16px;
+        width: 263px;
+    }
+    .best-theatre p {
+        text-align: center;
+    }
+    .some-numbers_column{
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+    }
+    .column2 {
+        margin-top: 0;
+    }
+    .about-title, .project-title, .partners-title, .contacts-title {
+        font-size: 36px;
+    }
+    .project-title {
+        width: 466px;
+    }
+    .projects {
+        margin: 0 33px;
+    }
+    .rating {
+        margin-top: 70px;
+    }
+    .rayting-stars p {
+        font-size: 25px;
+        width: 331px;
+    }
+    .partners-title {
+        width: 435px;
+    }
+    .partners-row {
+        margin: 0 33px;
+    }
+    .contacts-title {
+        width: 466px;
+    }
+    .right-top_left, .right-top_center {
+        width: 230px;
+    }
+    .right-top_right {
+        width: 100%;
+    }
+    .right-top_right textarea {
+        width: 100%;
+    }
+    .right-bottom {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+    .right-bottom p {
+        text-align: center;
+    }
+    .contacts-row {
+        gap: 50px;
+    }
+    #footer-row_left{
+        width: 307px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 576px){
+
+}
