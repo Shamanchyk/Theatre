@@ -470,6 +470,7 @@
     .rating-years {
         font-size: 43px;
         display: flex;
+        justify-content: space-between;
         gap: 10px;
     }
     .rayting-stars img{
@@ -520,7 +521,7 @@
     .footer-row p {
         padding: 20px 0;
     }
-    
+
 
 
 
