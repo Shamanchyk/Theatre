@@ -61,7 +61,6 @@
         display: flex;
         align-items: center;
         height: 150px;
-
     }
     
     .header-left_title{
@@ -88,8 +87,12 @@
         gap: 30px;
         margin-left: 86px;
     }
+
     .soc-links img{
+        width: 26px;
+        height: 26px;
         transform: rotate(90deg);
+        filter: opacity(60%);
     }
 
     .soc-links img:hover{
@@ -103,6 +106,9 @@
         margin-top: 50px;
     }
 
+
+
+    
 
 
     .container {
@@ -225,6 +231,11 @@
         padding: 0 47px;
         margin-top: 66px;
     }
+    .headline:hover, .contact-btn:hover{
+        background-color: #aa7502;
+        transition: .5s ease;
+    }
+
     .header-contant_right {
     }
     .swiper {
@@ -438,6 +449,7 @@
     .projects-item4{
         min-width: 442px;
         height: 550px;
+        transition: all 2s linear;
     }
 
     .projects-item{  
@@ -475,6 +487,7 @@
         border-radius: 50%;
         display: none;
         margin: 225px auto 0 auto;
+        transition: all 2s linear;
     }
     .item-search img{
         padding: 35px;
@@ -493,14 +506,17 @@
         display: block;
         margin-left: -30px;
         margin-top: 350px;
+        transition: all 0.5s ease;
     }
     .projects-item:hover {
         background: none;
         background-image: url(img/proj1.png);
         background-size: 442px 550px;
+        transition: all 2s linear;
     }
     .projects-item:hover .item-search{
         display: block;
+        transition: all 2s linear;
     }
     .projects-item:hover h3{
         display: none;
@@ -670,7 +686,8 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        width: 180px; 
+        min-width: 180px; 
+        width: 100%;
     }
     .right-top_left input,
     .right-top_center input{
