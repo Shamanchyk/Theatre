@@ -503,6 +503,9 @@
         justify-content: space-between;
         width: 100%;
     }
+    .contacts-row_left_number p{
+        width: 124px;
+    }
     .contacts-row_left {
         flex-direction: column;
     }
