@@ -1,3 +1,55 @@
+@media only screen and (max-width: 1500px){
+    
+
+    .header-left {
+        height: 130px;
+        margin-left: -470px;
+    }
+    .header-left_contant {
+        height: 130px;
+    }
+    .container {
+        width: 1070px;
+        padding-left: 60px;
+    }
+
+    .menu {
+        width: 785px;
+    }
+    .header-contant_left h2 {
+        font-size: 43px;
+        width: 534px;
+    }
+    .header-contant_left p {
+        width: 532px;
+    }
+    .header-contant_left {
+        width: 532px;
+    }
+    .best-theatre {
+        width: 322px;
+    }
+    .rating {
+        width: 100%;
+    }
+    .partners-swiper {
+        margin-left: 170px;
+    }
+    .contacts-row {
+        gap: 0px;
+    }
+    .right-top {
+        gap: 20px;
+    }
+    .partners-title {
+        width: 592px;
+        padding-left: 49px;
+    }
+
+
+
+}
+
 @media only screen and (max-width: 1200px){
     
     .container {
@@ -6,7 +58,15 @@
         margin: 0;
     }
     .menu {
-        width: 690px;
+        min-width: 690px;
+        width: 70%;
+    }
+    .header-left {
+        height: 150px;
+        margin-left: -450px;
+    }
+    .header-left_contant {
+        height: 150px;
     }
     .header-top_nav {
         flex-wrap: wrap;
@@ -32,6 +92,8 @@
     }
     .header-contant_left h2 {
         margin-bottom: 17px;
+        font-size: 48px;
+        width: 596px;
     }
     .headline {
         margin-top: 40px;
@@ -43,10 +105,14 @@
         line-height: 65px;
     }
     .about-row_text {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
         margin-top: 100px;
+    }
+    .best-theatre {
+        min-width: 445px;
+        width: 100%;
+    }
+    .some-numbers{
+        min-width: 210px;
     }
     .about-row_img {
         display: none;
@@ -63,6 +129,7 @@
     }
     .rating-row {
         display: flex;
+        justify-content: space-around;
         gap: 103px;
         width: 100%;
         margin: 0 auto;
@@ -71,9 +138,11 @@
     }
     .partners-title{
         width: 480px;
+        padding-left: 0;
     }
     .partners-swiper {
         margin-top: 130px;
+        margin-left: 0;
     }
     .contacts-row {
         flex-direction: column-reverse;
@@ -154,14 +223,19 @@
     .menu {
         display: none;
         width: 300px;
+        min-width: 0;
         height: 100%;
         position: fixed;
         background: #333333;
         top: 0;
         left: 0;
-        padding: 140px 0 0 39px;
+        padding: 140px 0 20px 39px;
         font-size: 24px;
         z-index: 1;
+        overflow-y: scroll;
+    }
+    .menu body{
+        overflow-y: hidden;
     }
     .header-top_number {
         width: 140px;
@@ -219,6 +293,7 @@
     }
     .rayting-stars {
         padding-top: 60px;
+        width: 380px;
     }
     .partners-title {
         margin-top: 90px;
@@ -295,6 +370,7 @@
     }
     .best-theatre {
         width: 100%;
+        min-width: 0;
     }
     .best-theatre h3, .some-numbers h3 {
         text-align: center;
@@ -429,7 +505,7 @@
 @media only screen and (max-width: 480px){
 
     .container {
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
     .header-top_number {
         right: 10px;

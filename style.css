@@ -125,6 +125,7 @@
         font-size: 24px;
         cursor: pointer;
         width: 27px;
+        background: rgba(51, 51, 51, 0.75);
     }
     .hamburger-line{
         background-color: #FFFFFF;
@@ -153,13 +154,18 @@
     }
     .header-top_nav {
         display: flex;
+        justify-content: space-between;
     }
     .menu {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 820px;
+        position: fixed;
+        z-index: 10;
+        background: rgba(51, 51, 51, 0.75);
     }
+    
     .line_link {
         font-size: 18px;
         line-height: 25px;
@@ -186,6 +192,7 @@
         text-transform: uppercase;
         color: #FFFFFF;
         border-bottom: 2px solid #D1A954;
+        position: relative;
     }
     .header-contant {
         display: flex;
@@ -449,7 +456,7 @@
     .projects-item4{
         min-width: 442px;
         height: 550px;
-        transition: all 2s linear;
+        transition: all .3s linear;
     }
 
     .projects-item{  
@@ -487,7 +494,7 @@
         border-radius: 50%;
         display: none;
         margin: 225px auto 0 auto;
-        transition: all 2s linear;
+        transition: all .2s linear;
     }
     .item-search img{
         padding: 35px;
