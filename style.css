@@ -125,6 +125,8 @@
         font-size: 24px;
         cursor: pointer;
         width: 27px;
+    }
+    .hamburgerScroll{
         background: rgba(51, 51, 51, 0.75);
     }
     .hamburger-line{
@@ -163,9 +165,11 @@
         width: 820px;
         position: fixed;
         z-index: 10;
+    }
+    .menuScroll{
         background: rgba(51, 51, 51, 0.75);
     }
-    
+
     .line_link {
         font-size: 18px;
         line-height: 25px;

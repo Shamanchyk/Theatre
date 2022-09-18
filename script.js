@@ -6,3 +6,14 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".btnprev",
       }
   });
+
+
+let menuScroll = document.querySelector('.menu')
+
+window.onscroll = () => {
+    if(window.scrollY > 50){
+        menuScroll.classList.add('menuScroll');
+    } else if(window.scrollY < 50){
+        menuScroll.classList.remove('menuScroll');
+    }
+};
