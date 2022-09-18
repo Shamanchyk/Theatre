@@ -17,3 +17,14 @@ window.onscroll = () => {
         menuScroll.classList.remove('menuScroll');
     }
 };
+
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+if(hamburger){
+    hamburger.addEventListener("click", function() {
+        document.body.classList.toggle('lock');
+        hamburger.classList.toggle('active');
+        menu.classList.toggle('active');
+    })
+}

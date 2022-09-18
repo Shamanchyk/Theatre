@@ -36,6 +36,9 @@
         font-family: 'Open Sans Condensed';
         background: rgba(51, 51, 51);
     }
+    body.lock{
+        overflow: hidden;
+    }
 
     /*HEADER*/
 
@@ -116,18 +119,11 @@
         margin: 0 auto;
     }
 
-
-    #checkbox_toggle{
-        display: none;
-    }
     .hamburger{
         display: none;
         font-size: 24px;
         cursor: pointer;
         width: 27px;
-    }
-    .hamburgerScroll{
-        background: rgba(51, 51, 51, 0.75);
     }
     .hamburger-line{
         background-color: #FFFFFF;

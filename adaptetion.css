@@ -193,7 +193,7 @@
     .header-left {
         display: none;
     }
-    #checkbox_toggle:checked ~ .menu{
+    .menu.active{
         display: block;
         transition: all 0.5s;
     }
@@ -204,20 +204,21 @@
         top: 50px;
         z-index: 2;
     }
-    #checkbox_toggle:checked ~ .hamburger .hamburger-line{
+    .hamburger.active{
+        left: 200px;
+    }
+    .hamburger.active .hamburger-line{
         background-color: transparent;
     }
     
-    #checkbox_toggle:checked ~ .hamburger .hamburger-line::before{
+    .hamburger.active .hamburger-line::before{
         transform: rotate(-45deg);
         top: 0;
-        left: 200px;
         width: 20px;
     }
-    #checkbox_toggle:checked ~ .hamburger .hamburger-line::after{
+    .hamburger.active .hamburger-line::after{
         transform: rotate(45deg);
         top: 0;  
-        left: 200px;
         width: 20px;
     }
     .menu {
@@ -234,9 +235,7 @@
         z-index: 1;
         overflow-y: scroll;
     }
-    .menu body{
-        overflow-y: hidden;
-    }
+    
     .header-top_number {
         width: 140px;
         margin: 0;
