@@ -1,18 +1,13 @@
 @media only screen and (max-width: 1500px){
     
 
-    .header-left {
-        height: 130px;
-        margin-left: -470px;
-    }
-    .header-left_contant {
-        height: 130px;
-    }
     .container {
         width: 1070px;
         padding-left: 60px;
     }
-
+    .header-left {
+        width: 120px;
+    }
     .menu {
         width: 785px;
     }
@@ -62,11 +57,7 @@
         width: 70%;
     }
     .header-left {
-        height: 150px;
-        margin-left: -450px;
-    }
-    .header-left_contant {
-        height: 150px;
+        width: 130px;
     }
     .header-top_nav {
         flex-wrap: wrap;
@@ -84,9 +75,6 @@
         margin-top: 0;
         width: 100%;
     }
-    .header-contant {
-        margin-top: 208px;
-    }
     .header-contant_left p{
         width: 100%;
     }
@@ -94,6 +82,9 @@
         margin-bottom: 17px;
         font-size: 48px;
         width: 596px;
+    }
+    .header-contant {
+        margin-top: 361px;
     }
     .headline {
         margin-top: 40px;
@@ -196,6 +187,9 @@
     .menu.active{
         display: block;
         transition: all 0.5s;
+    }
+    .header-contant {
+        margin-top: 252px;
     }
     .hamburger {
         display: block;
