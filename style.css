@@ -169,6 +169,7 @@
         background: rgba(51, 51, 51, 0.9);
         padding-top: 38px;
         height: 90px;
+        transition: all .5s ease;
     }
 
     .line_link {
