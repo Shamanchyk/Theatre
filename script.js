@@ -8,13 +8,16 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
-let menuScroll = document.querySelector('.menu')
+let menuScroll = document.querySelector('.header-top_nav')
+let numberScroll = document.querySelector('.header-top_number')
 
 window.onscroll = () => {
-    if(window.scrollY > 50){
+    if(window.scrollY > 70){
         menuScroll.classList.add('menuScroll');
-    } else if(window.scrollY < 50){
+        numberScroll.style.display = 'none';
+    } else if(window.scrollY < 70){
         menuScroll.classList.remove('menuScroll');
+        numberScroll.style.display = 'block';
     }
 };
 

@@ -201,7 +201,6 @@
         display: block;
         padding: 20px 0;
         position: fixed;
-        top: 50px;
         z-index: 2;
     }
     .hamburger.active{
@@ -235,6 +234,9 @@
         z-index: 1;
         overflow-y: scroll;
     }
+    .menuScroll {
+        padding-top: 30px;
+    }
     
     .header-top_number {
         width: 140px;
@@ -246,7 +248,7 @@
     .header-top_number {
         position: absolute;
         right: 39px;
-        top: 60px;
+        margin-top: 10px;
     }
     .line_link{
         font-size: 24px;
@@ -323,6 +325,9 @@
 
     .container {
         padding: 0 33px;
+    }
+    .header-top_nav {
+        padding-top: 30px;
     }
     .about-title, .partners-title {
         margin-top: 80px;
@@ -515,7 +520,12 @@
         font-size: 25px;
         width: 315px;
     }
-
+    .header-top_nav {
+        padding-top: 20px;
+    }
+    .menuScroll {
+        height: 75px;
+    }
     .menu {
         width: 235px;
         padding: 110px 0 0 15px;
